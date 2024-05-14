@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* border: 2px solid black; */
+}
+
+img {
+  margin: auto;
+  width: 100%;
+  border-radius: inherit;
+}
+
+body {
+  height: 100vh;
+  background-image: rgb(243, 251, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Radio Canada Big", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section {
+  width: 90%;
+  max-width: 800px;
+  height: 90%;
+  max-height: 500px;
+  background-color: rgb(219, 234, 255);
+  background-image: url(images/pattern-background-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 5px 5px 20px rgb(206, 209, 211);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 40%;
+  height: 85%;
+  max-width: 350px;
+  max-height: 700px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.description-container {
+  flex-grow: 1;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+  /* border: 2px solid black; */
+}
+
+.order-summery-heading{
+    color: rgb(44, 44, 44);
+}
+
+.plan-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.plan-container-left-part {
+  display: flex;
+}
